@@ -1,9 +1,8 @@
 === ABOUT ===
-Programmatically compiling all shaders the first time an application is run and saving the binaries for reuse can significantly reduce load times for games in subsequent runs. The OpenGL* ES 3.0 sample code introduced here demonstrates a simple implementation of this capability.
+Simple example showing how to load the ETC2 texture format.  Application originally written by William Guo.  Updated to include ETC2 by Cristiano Ferreira.
 
 === INSTALLATION ===
-Navigate to PrecompiledShaders\projects\android with a device connected, or the emulator running.
-Run the following:
+In project root with a device connected, or the emulator running run the following:
 	android update project –p .
 	ndk-build
 	ant debug
